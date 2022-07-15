@@ -1,0 +1,87 @@
+/* Bordering
+3 main bondering properties:
+    1. Border-width - Controls thickness of Border
+    2. Border-colour - Controls the colour of the border
+    3. Border-style - Controls How the borderline looks (dotted, dashed, solid, etc
+Shorthand Property:
+    Border - Styles everything at once 
+Also has very specific properties like left,right,up,down which either property can target.
+
+ Padding - space between main content and the border, like a shipping crate containing padding when transporting fragile content.
+    individual properties -  Padding-up,down,left,right
+    shorthand property: Padding - set all 4 sides at once.
+                                    1 value sets all 4 sides (20px
+                                    2 values set vertical and horizontal in that order (padding: 5px 10px)
+                                    3 values set top, horizontal and bottom in that order
+                                    4 values set top, right, bottom and left in that order, ie ordr of values is clockwise.
+
+Margin - Space outside the bordered element between something else, e.g other elements
+All properties of padding including the rules for the shorthand property apply to margin as well. */
+
+h1 {
+    width: 200px;
+    background-color: chartreuse;
+    border-width: 5px;
+    border-style: solid;
+    border-color: magenta;
+    /* box-sizing: border-box; */
+}
+
+div {
+    width: 700px;
+    height: 230px;
+}
+
+#LO {
+    background-color: cornflowerblue;
+    border-width: 6px;
+    border-style: double;
+    border-color: maroon;
+    border-radius: 10px;
+    margin: 5px 5px;
+}
+
+#REM {
+    background-color: darkcyan ;
+    border-width: 6px;
+    border-style: groove;
+    border-color: purple;
+    border-radius: 10%;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin: 5px 5px;
+}
+
+#IP {
+    background-color: darkkhaki ;
+    border-width: 6px;
+    border-style: dotted solid ridge inset;
+    border-color:teal;
+    border-radius: 10em;
+    padding: 30px;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+
+#SUM {
+    background-color:darkorange ;
+    border-width: 6px;
+    border-style: ridge;
+    border-color: yellowgreen;border-radius: 10rem;
+    padding: 30px;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+
+#DOL {
+    background-color: yellow;
+    border: 6px inset darkred;
+    border-radius: 10ex;
+    padding: 10px 10px 0 30px;
+    margin: 5px 5px;
+}
+
+button {
+    padding: 15px;
+}
+

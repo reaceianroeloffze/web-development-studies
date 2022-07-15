@@ -1,0 +1,11 @@
+/*Universal Selector*/
+*{color: aquamarine; background-color: #000030;
+}
+/*multiple selector*/
+h1,h2{color: blanchedalmond;}
+/*Element Selector*/
+button{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#TR{color: white;}
+/*id Selector*/
+#Infin{color: navy; font-size: 30px; background-color: chartreuse;}
+/*Only 1 id name per document can be used!*/

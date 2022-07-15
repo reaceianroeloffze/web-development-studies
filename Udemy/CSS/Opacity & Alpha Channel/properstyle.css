@@ -1,0 +1,20 @@
+section{
+    width: 500px;
+    height: 500px;
+    background-color: hotpink;
+}
+
+#rgba{
+    height: 50%;
+    width: 50%;
+    background-color: #3f6adfa1
+    /* Alpha channel - a value between 0 and 1 which sets the transparency of a particular colour. Only affects background colour, not text. */
+}
+
+#opacity{
+    height: 50%;
+    width: 50%;
+    background-color: greenyellow;
+    opacity: 0.3;
+    /* Opacity - a property that is used to adjust the transparancy of an entire element, including nested elements and decendants, with values between 0 and 1. */
+}

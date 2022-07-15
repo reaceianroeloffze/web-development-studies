@@ -1,0 +1,27 @@
+/* The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.
+    This property is a shorthand for the following CSS properties:
+    - background-attachment
+    - background-clip
+    - background-color
+    - background-image
+    - background-origin
+    - background-position
+    - background-repeat
+    - background-size */
+section{
+    width: 65%;
+    height: 950px;
+    background: url(Fluttershy1.png), url(Green_Hill.jpg) ;
+    margin: 0 auto;
+    border: 5px solid goldenrod;
+    background-size: cover;
+    /* background-position */
+}
+
+h1{
+    font-size: 6rem;
+    color: #5c5c15;
+    margin-left: 70px ;
+    transform: translateY(40px);
+    font-family: fantasy;
+}

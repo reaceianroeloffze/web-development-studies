@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Palace | Bookings - Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap");
+    </style>
+</head>
+<body>
+    <div id="content">
+        <!-- Whitewater Palace Booking Form -->
+        <header>
+            <div class="logo-box">
+                <img src="https://cdn.glitch.global/8cf51168-03c7-4adb-ab2c-d61b839f137a/Whitewater%20Palace%20(3).png?v=1641547612992" alt ="Whitewater Palace Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Booking-Form-Page.html">Book Your Stay</a></li>
+                    <li><a href="#">Equipment</a></li>
+                    <li><a href="#">Safety</a></li>
+                    <!-- <li><a href="site-plan.html">Site Plan</a></li> -->
+                    <!-- <li><a href="aboutme.html">About Me</a></li> -->
+                </ul>
+            </nav>
+        </header>
+        <main class="form-box">
+            <div class="banner-box">
+                <img src="rafters-in-rapids.jpg" alt="Rafters in River Rapids">
+            </div>
+            <section class="form-intro">
+                <h1 class="form-heading-1">Booking Form</h1>
+                <p>
+                    Welcome! We are very happy to have you! Thank you for wanting to book your stay with us! Please proceed to fill out this form and secure your accomodations! Booking with us is easy! You can book for 1 person, a duo, a group, your family, whoever. A maximum of 8 people can be booked for 1 stay. All fields are required to fill in.
+                </p>
+            </section>
+            <form action="Form-submit.html">
+                <fieldset class="personal-info">
+                    <legend>Personal Information</legend>
+                    <p>
+                        Your personal information will be stored in our database and used when you want to book future trips with us. Should you be a returning visitor, you will not have to fill out this exact form every time. We also require this information so we can forward you your booked ticket and other relevant information.
+                    </p>
+                    <div>
+                        <label for="full-names">Full names:</label>
+                        <input type="text" id="full-names" placeholder="First, Middle, Last" name="all-names" required>
+                    </div>
+                    <div>
+                        <label>Gender:</label>
+                        <input type="radio" name="sex" id="gender-male" value="male" required>
+                        <label for="gender-male">Male</label>
+                        <input type="radio" name="sex" id="gender-female" value="female" required>
+                        <label for="gender-female">Female:</label>
+                    </div>
+                    <div>
+                        <label for="date-of-birth">Date of Birth:</label>
+                        <input type="text" name="birthdate" id="date-of-birth" placeholder="YYYY/MM/DD">
+                    </div>
+                    <div>
+                        <label for="contact-info">Contact Information:</label>
+                        <input type="text" name="info-contact" id="contact-info" placeholder="Email or Phone Number" required>
+                    </div>
+                </fieldset>
+                <fieldset class="booking-details">
+                    <legend>Booking Details</legend>
+                    <p>
+                        Choose how many of you will be coming, how long you'll be staying and where you'll be staying. The person booking the stay will be responsible for payment, making sure everyone is notified and other administrations made through them. They will thus be liable for everything during the duration of your stay.
+                    </p>
+                    <div>
+                        <label for="plan">Choose a Plan:</label>
+                        <select name="the-plan" id="plan">
+                            <option value="select" selected>Select</option>
+                            <option value="one">Individual</option>
+                            <option value="two">Couple</option>
+                            <option value="multi">Family/Group</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="stay-duration">Duration of Stay:</label>
+                        <select name="stay-time" id="stay-duration">
+                            <option value="day-0" selected>Select</option>
+                            <option value="day-1">12hr-1 day</option>
+                            <option value="day-2">2-3 days</option>
+                            <option value="day-3">4-7 days</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="venue">Select Venue:</label>
+                        <select name="place" id="venue">
+                            <option value="ven-0" selected>Select</option>
+                            <option value="ven-1">Mountain Valley, Gauteng</option>
+                            <option value="ven-2">Sabie, Mpumalanga</option>
+                            <option value="ven-3">Bright Vale, Limpopo</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="payment">Duration of Stay:</label>
+                        <select name="money" id="payment">
+                            <option value="pay-0" selected>Select</option>
+                            <option value="pay-1">Credit Card</option>
+                            <option value="pay-2">PayPal</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Indemity</legend>
+                    <p>
+                        We pride ourselves in offereing the best and greatest opportunities for epic whitewater rafting experiences as well as gentle rides. We have many safety standards and regulations and they must be observed at all times while on our premises. Any failure to abide by these regulations indemnifies us of any risk to anyone participating in the whitewater sport or the gentle rides. Those who put themselves at risk by failing to adhere to the safety protocols and regulations we have established will be asked to leave the premises immediately. Multiple violations of the safety protocols and other regulations will result in a permanent ban from our premises entirely. By submitting this form, you are agreeing to these conditions and to adhere to all safety protocols and instructions and indemnify Whitewater Palace and its staff from any risk to injury or otherwise thant you may pose upon yourself and others.
+                    </p>
+                    <div class="agree">
+                        <input type="checkbox" name="Acknowledgment" id="agreement" required>
+                        <label for="agreement">I agree to abide by the rules and regulations of WhiteWater Palace</label>
+                    </div>
+                </fieldset>
+                
+                <button>Submit Booking</button>
+            </form>
+        </main>
+        <footer>
+            <p class="copyright">&copy; 2022 Whitewater Palace Reace Ian Roeloffze - WDD130-23</p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><img src="Facebook_Icon.PNG" alt="Facebook Icon"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="IG_Icon.JPG" alt="Instagram Icon"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="Twitter_Icon2.PNG" alt="Twitter Icon"></a>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

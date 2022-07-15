@@ -1,0 +1,137 @@
+* {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    background-color: rgba(8, 53, 176, 0.879);
+    color: white;
+}
+
+header, main, footer {
+    border-radius: 50px;
+}
+
+header, footer {
+    background-color: #c1121f;
+    color: #ffccd5;
+}
+
+hr {
+    display: none;
+}
+
+footer {
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+main {
+    background-color: #ffccd5;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 5px solid #c1121f;
+    color: #c1121f;
+}
+
+input {
+    border: 3px solid #c1121f;
+    color: #c1121f;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: 'Kalam', cursive;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+
+label {
+    display: inline-block;
+    min-width: 120px;
+    text-align: right;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+nav ul li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+}
+
+section {
+    text-align: center;
+}
+
+
+/* Class Selectors */
+.active {
+    background-color: white;
+    color: black;
+}
+
+.open li {
+    display: block;
+}
+
+/* ID Selectors */
+#calculator {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#calculate {
+    font-size: 1.5em;
+    padding: 0 10px 0 10px;
+}
+
+#calculate:hover {
+    background-color: #c1121f;
+    color: #ffccd5;
+}
+
+#calculate:active {
+    background-color: #efefef;
+    color: red;
+}

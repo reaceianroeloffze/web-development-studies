@@ -1,0 +1,82 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    /* Flexbox has 2 main axes: main axis and cross axis.
+    Main axis can be adjusted to row or colum, either normal flow or reversed. Default is 'row'.
+    Justify-Content adjusts content on main axis */
+    flex-direction: row;
+    justify-content: center;
+    /* This is where the Cross Axis comes in. By applying flex wrap we are applying the Cross Axis.
+    The Cross Axis and Main Axis always run perpendicular to each other, so if flex-direction is set to column or column-reverse, the Main Axis is now vertical, which means that when "flex-wrap" is applied, content will be wrapped horizontally, ie, the Cross Axis will run from left to right.
+    Align-Items adjusts content on Cross Axis. */
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: space-between; */
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    /* max-width: 300px; */
+    text-align: center;
+    flex-basis: 600px;
+}
+
+/* div:nth-of-type(3){
+    align-self: flex-end;
+}
+div:nth-of-type(2n){
+    align-self: center; 
+}*/
+
+/* Flex Sizing Properties:
+    1 Flex-basis - Defines initial size of element before additional space is distrubted. Set on Main Axis.
+    2 flex-grow - Controls amount of available space an element should take up. Accepts numerical values with no unit attached.
+    3 flex-shrink - Shrinks elements according set value. Used to shrink elements larger than the container for example. */
+
+div:nth-of-type(1){
+    flex-grow: 1;
+}
+div:nth-of-type(5){
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+/* Flex (shorthand) - Shorthand property that sets all values for flex-basis, flex-grow and flex-shrink. */
+main{
+    margin: 0 auto;
+    width: 80%;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+h2{
+    text-align: center;
+}
+
+main .sidebar {
+    background-color: blueviolet;
+    flex: 1 3 300px;
+}
+main .maincontent{
+    background-color: aquamarine;
+    flex: 3 1 800px;
+}
+
+/* Responsive Design Process - What it is and why should care:
+    1 The Problem - As mobile devices became widely available, Developers began to question how they could create good-looking websites on all screen sizes
+    2 One Approach - Early common practice was to create different stylesheets or even completely different websites for each size and for different devices
+    3 Enter Responsive - Today we typically create ONE website and stylesheet which is able to respond to different device sizes and features.
+Accomplished through Media queries
+    Media Queries - Allows for the modification of our styles depending on particular parameteres like screen width or device type. */
+

@@ -1,0 +1,30 @@
+body{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #011627;
+}
+
+button{
+    background: none;
+    color: #ffe97f;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.27s, border-color 0.27s, box-shadow 0.27s, transform 0.27s;
+}
+/* box-shadow - Property that adds shadow effects around an element's frame. Multiple effects can be set separated by commas.
+    A box shadow is described by:
+    - X and Y offsets relative to the element,
+    - blur and spread radius, 
+    - color.
+         */
+button:hover{
+    border-color:  #ff87ff;
+    color: #ff87ff;
+    box-shadow: 0em 0.5em 0.5em -0.4em;
+    transform: translateY(-.3em);
+    cursor: pointer;
+}

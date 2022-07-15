@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Form</title>
+    <link rel="stylesheet" href="Form_Style.CSS">
+</head>
+
+<body>
+    <h1>Welcome to the Gold League</h1>
+    <!--form: An Element that groups various input elements together and then submits those elements to a specified destination-->
+    <form action="Golden Memebership">
+        <p>
+            <label for="First Given Name">Give Your First Name</label>
+            <input id="First Given Name" type="text" placeholder="First Given Name" name="fn" required>
+        </p>
+        <p>
+            <label for="time">Input Time</label>
+            <input type="time" id="time" name="Time">
+        </p>
+        <input type="number" placeholder="select number" min="0" max="100000" step="10" required>
+        <input type="password" placeholder="enter password" name="pass" required minlength="7" maxlength="14">
+        <p>
+            <!--Form Validations: Adding consrtaints or validating user input/data for when submission of a form takes place-->
+            <label for="Colour Scheme">Please Select Colour Scheme</label>
+            <input type="color" id="Colour Scheme" name="colour scheme">
+        </p>
+        <!--Server-side Validations coexist with Form Validations-->
+        <p>
+            <input type="checkbox" name="marriage" id="I do" checked>
+            <label for="I do">I do</label>
+        </p>
+        <p>
+            <input type="radio" name="ficto" id="chronic" value="chr">
+            <label for="chronic">chronic</label>
+            <input type="radio" name="ficto" id="mild" value="mil">
+            <label for="mild">mild</label>
+            <input type="radio" name="ficto" id="slight" value="sli">
+            <label for="slight">slight</label>
+        </p>
+        <p>
+            <label for="PersTrait">Select Your Favourite Anime Personality Trait</label>
+            <select name="Favourite Personality Trait" id="PersTrait">
+                <option value="Select Favourite Personality Trait">Select Favourite Personality Trait</option>
+                <option value="Tsundere">Tsundere</option>
+                <option value="Deredere" selected>Deredere</option>
+                <option value="Yandere">Yandere</option>
+                <option value="Dandere">Dandere</option>
+            </select>
+        </p>
+        <p>
+            <label for="Style">How Stylish Are You?</label>
+            <input type="Range" name="How_Stylish_Are_You?" value=100 id="Syle" min="0" max="200" step="10">
+        </p>
+        <p>
+            <label for="TR"> type like a Typewriter</label><br>
+            <textarea name="Typewriter_Special" id="TR" cols="50" rows="20"
+                placeholder="Type Like A Typewriter!!!!!!!!!!!!!"></textarea>
+        </p>
+        <button>submit</button>
+        <!--The Default behaviour of a button inside a form is to submit the form. buttons outside of forms do nothing-->
+    </form>
+    <!--Only 1 element on a page can have an "id" attribute/have a given ID-->
+    <h2>Search Hijacking</h2>
+    <form action="https://www.facebook.com/search/">
+        <input type="text" name="q">
+        <button>search</button>
+        <button type="button" id="Infin">Infinite clicks, No result</button>
+    </form>
+
+</html>
