@@ -1,0 +1,33 @@
+img{
+    width: 30%;
+    margin: 1.333333%;
+    /* margin: calc(10%/6); */
+    border: 4px solid #03045e;
+}
+
+#Jewel{
+    background-image: url(polished-diamond.png);
+    background-size: 104px;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #c8b6ff;
+    
+}
+#FlyShy{
+    background-image: url(Nature.jpg);
+    background-position: center;
+}
+
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #ede0d4;
+    width: 30.432%;
+    margin-left: 1.333333%;
+    padding: 0.8rem 0;
+    font-family: Luckiest Guy, cursive;
+    font-size: 2rem;
+}
+
+
+
+

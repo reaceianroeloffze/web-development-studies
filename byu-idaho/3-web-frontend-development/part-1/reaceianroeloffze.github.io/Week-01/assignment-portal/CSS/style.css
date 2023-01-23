@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Just+Another+Hand&family=Shrikhand&display=swap');
+
+#content {
+    margin: 250px auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+header, footer {
+    background-color: #001d3d;
+    color: #a9d6e5;
+    padding: 5px 0 5px 0;
+}
+
+header {
+    border-radius: 50px 50px 0 0;
+}
+
+h1, h2 {
+    font-family: 'Just Another Hand', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+main {
+    border-left: 2px solid #001d3d;
+    border-right: 2px solid #001d3d;
+    font-family: 'Shrikhand', cursive;
+    width: 100%;
+    background-color: #edf2fb;
+    box-sizing: border-box;
+}
+
+/* h2 {
+    color: #540b0e;
+    text-shadow: 5px 5px 5px #3d5a80;
+    letter-spacing: 2px;
+    padding: 0 10px 0 10px;
+} */
+
+ul {
+    text-align: start;
+    color: #540b0e;
+    text-shadow: 5px 5px 5px #3d5a80;
+    padding-right: 10px;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: #001d3d;
+}
+
+ul a:hover {
+    color: #2d00f7;
+    text-decoration: underline;
+}
+
+ul a:visited {
+    color: #072ac8;
+}
+
+img {
+    grid-column: 2/3;
+    width: 50%;
+    justify-self: end;
+    align-self: center;
+    margin-top: 0;
+    box-shadow: 5px 5px 15px 0 #3d5a80;
+}
+
+
+footer {
+    font-family: 'Charm', cursive;
+    font-weight: 700;
+    border-radius: 0 0 50px 50px;
+    letter-spacing: 2px;
+    padding: 10px 10px 0 10px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: #a9d6e5;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffea00;
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: aqua;
+}
+
+footer a:visited {
+    color: #ffccd5;
+}
+
+.update {
+    color: #ccff33;
+}

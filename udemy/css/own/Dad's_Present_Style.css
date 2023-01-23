@@ -1,0 +1,105 @@
+h1 {
+    font-size: 4.6rem;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+}
+#Father, .Paps{
+    display: flex;
+    justify-content: center;
+    color: #001f54;
+}
+.Paps {
+    width: 550px;
+    /* border: 1px solid black; */
+    text-align: center;
+    position: absolute;
+    left: 34.798%;
+    top: 3%;
+    padding: 10px;
+}
+#Pa {
+    border: 3px ridge chartreuse;
+    width: 28.2%;
+}
+#Father {
+    background-image: url(DES_deepfield_cover.jpg);
+    border: 5px ridge #9eb3c2;
+}
+.Pappa {
+    text-decoration: underline;
+}
+#Father div {
+    width: 1%;
+    height: 2%;
+    background-image: url(WhiteSpace.png);
+    position: absolute;
+    background-size: cover;
+    transition: all 1s;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px ridge wheat;
+    font-size: .001rem;
+}
+
+#Father div p {
+    padding: 0 10px;
+    text-align: center;
+    margin: auto 0;
+}
+#Father div:hover {
+    width: 25%;
+    height: 55%;
+}
+.Carri-Ann {
+   left: 18%;
+   top: 20%;
+}
+#Father .Carri-Ann:hover{
+    background-image: url(Carri.jpeg);
+    border-radius: 20px;
+    border: 10px ridge silver;
+    font-size: 1.4rem;
+    background-position: center;
+    font-family: 'Dancing Script', cursive;
+    color: #8ca2c8;
+    font-weight: 700;
+}
+.Reace {
+   left: 18%;
+   bottom: 20%;
+}
+#Father .Reace:hover {
+    background-image: url(Reace2.jpg);
+    background-position: center;
+    border-radius: 20px;
+    border: 10px ridge gold;
+    font-size: 1.4rem;
+    font-family: 'Racing Sans One', cursive;
+    color: #1e88e5;
+}
+.LDean {
+   right: 18%;
+   top: 20%;
+}
+#Father .LDean:hover {
+    background-image: url(LDean.jpeg);
+    border-radius: 20px;
+    border: 10px ridge red;
+    font-size: 1.3rem;
+    background-position: center;
+    font-family: 'Notable', sans-serif;
+    color: rgb(128, 252, 4);
+}
+.Serin {
+   right: 18%;
+   bottom: 20%;
+}
+#Father .Serin:hover {
+    background-image: url(Serin.jpeg);
+    border-radius: 20px;
+    border: 10px ridge blue;
+    font-size: 1.3rem;
+    background-position: center;
+    font-family: 'Sansita Swashed', cursive;
+    color: rgb(198, 198, 216);
+}

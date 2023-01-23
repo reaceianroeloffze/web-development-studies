@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14213d;
+}
+
+#content {
+    display: block;
+    font-size: 1rem;
+    padding: 10pt;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    color: #fdffb6;
+}
+
+header > h1, header > h2 {
+    font-size: 2rem;
+}
+
+#content a {
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+
+main h2 {
+    padding-top: 10px;
+}
+
+hr {
+    color: #14213d;
+}
+
+section {
+    padding: 0 20px 0 20px;
+    box-shadow: 0 0 15px #e3f2fd;
+    border-radius: 10px;
+    background-color: #fdffb6;
+    color: #14213d;
+}
+
+section > span, section > a {
+    line-height: 30px;
+}
+
+.second-grid > span {
+line-height: 15px;
+}
+
+section > a {
+    color: #14213d;
+}
+
+section > a:hover {
+    color: #660708;
+}
+
+section a:active {
+    color: #5f0f40;
+}
+
+section a:visited {
+    color: #023e8a;
+}
+
+section > img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 5px solid #14213d;
+}
+
+section > p {
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+footer > p {
+    line-height: 20px;
+}
+
+footer > p > a {
+    color: #89fc00;
+}
+
+footer a:hover {
+    color: #ffb3c1;
+}
+
+footer a:active {
+    color: #d9ed92;
+}
+
+footer a:visited {
+    color: #d3d3d3
+}

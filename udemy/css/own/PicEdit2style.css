@@ -1,0 +1,48 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(Pics/Red-Castle.jpg);
+	background-size: cover;
+}
+.Al, .Als {
+	width: 71vh;
+	position: absolute;
+	right: 600px;
+}
+h3 {
+	right: 623px;
+	top: -30px;
+	position: absolute;
+	font-size: 4.7rem;
+	font-family: 'Lacquer', cursive;
+	color: #370617;
+}
+.Bow {
+	z-index: 1;
+}
+.Queen {
+	z-index: 3;
+	font-size: 3.7rem;
+	right: 632px;
+	top: -38px;
+}
+.Al {
+	border: 10px crimson ridge;
+	z-index: auto;
+}
+.Als {
+	width: 75vh;
+	border: 10px groove maroon;
+	z-index: 2;
+}
+.Ali:hover{
+	display: none;
+}
+.Heraldic-Crown, .Royal-Crown {
+	width: 10vh;
+}
+
+/* Bootstrap - An aid in quickly building responsive websites. Consists of 2 parts:
+				Componets - Pre-built which we can incorporate into our own websites.
+				Grid System - Helps us construct our own custom, responsive layouts. */

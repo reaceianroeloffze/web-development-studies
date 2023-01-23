@@ -1,0 +1,16 @@
+h1{ 
+    text-align: center;
+    
+    color: maroon;
+    text-decoration: #450000 underline dashed;
+}
+h2{
+    font-weight: 700;
+   letter-spacing: 2px;
+   text-decoration: #e46262 underline;
+}
+p{line-height: 1.5;
+font-size: 20px;
+font-family:Impact;
+/* Multiple fonts can be included as backups in case first selected font isn't available. font families can also be selected */
+}

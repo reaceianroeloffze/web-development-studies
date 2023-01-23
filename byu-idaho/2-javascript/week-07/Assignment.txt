@@ -1,0 +1,10 @@
+My rules for validating a good source:
+
+Use of technical jargon.
+coding examples.
+opportunities to try the code yourself.
+
+These are for me what made the difference between a good source and a bad source. And this will also help me be a good source as well.
+
+The site I value most is MDN.
+This is really the only site I've ever used for web sources. It is fluid, detailed, gives several examples, uses technical jargon, provides links to every concept they explain and when I've used it I've never went wrong. I don't trust any other site right now.

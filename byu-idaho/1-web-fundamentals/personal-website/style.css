@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E3628;
+}
+
+/* general styles */
+h1, h2, p, .golden-ace {
+    color: #D4AF37;
+}
+
+h1, h2, h3, .golden-ace, legend, button {
+    font-family: 'Bonheur Royale', cursive;
+    letter-spacing: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p, button {
+    font-family: 'Nova Script', cursive;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+#content, footer, img, .golden-ace, nav, p {
+    border: 3px solid #D4AF37;
+}
+
+#content, nav, nav a, footer, p, img {
+    border-radius: 3mm;
+}
+
+#content {
+    max-width:  1000px;
+    margin: 0 auto;
+}
+
+/* Header Style */
+header {
+    border-bottom: 3px solid #D4AF37;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 110px auto;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #1E3628;
+}
+
+.logo-box {
+    margin-left: 5px;
+}
+
+.logo-box img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.nav-main {
+    background-color: #7e0315;
+    margin-left: 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 2fr));
+    padding: 20px 0 20px 0;
+    justify-items: center;
+    margin-right: 10px;
+}
+
+.nav-main a {
+    text-decoration: none;
+    font-family: 'Nova Script', cursive;
+    color: #E5E4E2;
+    font-weight: 600;
+    font-size: 1.6em;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-main .golden-ace {
+    background-color: #1E3628;
+    color: #D4AF37;
+    font-family: 'Bonheur Royale', cursive;
+}
+
+.nav-main a:hover, .nav-main a:focus {
+    background-color: #E5E4E2;
+    color: #4169E1;
+    border: 3px solid #4169E1;
+}
+
+.nav-main .golden-ace:hover {
+    background-color: #D4AF37;
+    color: #1E3628;
+    border: 3px solid #1E3628;
+}
+
+/* Main Content Style */
+main {
+    text-align: center;
+}
+
+main div {
+    margin: 20px auto;
+}
+
+main img {
+    width: 80%;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #D4AF37;
+    margin-top: 20px;
+}
+
+section p, main p {
+    width: 70%;
+    margin: 15px auto;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.grid-one, .grid-two {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.par-1, .par-2, .par-3, .img-center, .img-left, .img-right {
+    justify-self: center;
+}
+
+.par-1 {
+    grid-column: 1/5;
+    width: 100%;
+}
+
+.img-center{
+    grid-column: 5/9;
+    width: 100%;
+}
+
+.par-2 {
+    grid-column: 9/13;
+    width: 100%;
+}
+
+.img-left {
+    grid-column: 1/5;
+    width: 100%;
+}
+
+.par-3 {
+    grid-column: 5/9;
+}
+
+.img-right {
+    grid-column: 9/13;
+    width: 100%;
+}
+
+/* Footer Style */
+footer, .form-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D4AF37;
+}
+
+footer p {
+    color: #1E3628;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.site-plan-link {
+    color: #7e0315;
+    text-decoration: 0;
+}
+
+.site-plan-link:hover {
+    color: #4169E1;
+}
+
+.social, .form-social {
+    grid-column: 2/3;
+    justify-self: end;
+}
+
+.social img, .form-social img {
+    width: 30px;
+    padding: 1px;
+    border: none;
+}
+
+.social img:hover, .social img:focus {
+    border: 2px solid #1E3628;
+}
+
+/* Vault Page Style */
+.grid-three, .grid-four {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+    align-items: center;
+    border: none;
+}
+
+.grid-three img, .grid-four img {
+    max-width: 60%;
+    border: none;
+}
+
+.grid-three img:hover, .grid-four img:hover {
+    border: 3px solid #D4AF37;
+    box-sizing: border-box;
+}
+
+/* Form Page Style */
+.form-block {
+    background-color: #D4AF37;
+}
+
+.form-content {
+    border-top: none;
+    margin-top: 0;
+}
+
+.form-block {
+    padding: 10px;
+}
+
+.form-block h1, .form-block h2, .form-block p, legend {
+    color: #1E3628;
+}
+
+.form-content img, .form-content p, input {
+    border: 3px solid #1E3628;
+}
+
+.form-content p, .form-block p {
+    background-color: #1E3628;
+    color: #D4AF37;
+}
+
+fieldset {
+    border: 3px solid #1E3628;
+    border-radius: 3mm;
+    margin: 10px auto;
+    text-align: end;
+    width: 50%;
+    border: none;
+}
+
+legend {
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0 13px;
+    text-align: center;
+}
+
+label, input, select {
+    font-family: 'Nova Script', cursive;
+    color: #1E3628;
+    font-weight: 600;
+    border-radius: 3mm;
+    font-size: 1em;
+    padding: 5px;
+}
+
+#full-names, #email, #birth {
+    background-color: #1E3628;
+    color: #D4AF37;
+    width: 300px;
+}
+
+input:focus {
+    border-color: #4169E1;
+}
+
+select {
+    background-color: #1E3628;
+    color: #D4AF37;
+    vertical-align: middle;
+}
+
+option {
+    font-size: 1.3em;
+    line-height: 30px;
+    font-weight: 600;
+    width: 250px;
+    padding: 5px 3px 5px 3px;
+}
+
+.option-one {
+    border-bottom: 3px solid #D4AF37;
+}
+
+option:hover {
+    background-color: #D4AF37;
+    color: #1E3628;
+}
+
+option:focus {
+    background-color: #D4AF37;
+    color: #1E3628;
+}
+
+.grid-five {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.card-gold {
+    grid-column: 1/4;
+    width: 100%;
+    align-self: center;
+}
+
+.deck-gold {
+    grid-column: 4/7;
+    width: 100%;
+    align-self: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #1E3628;
+    border-radius: 3mm;
+    color: #D4AF37;
+    margin-right: 44%;
+}
+
+button:active {
+    background-color: #D4AF37;
+    color: #1E3628;
+}
+
+@media screen and (max-width: 920px) {
+    .nav-main a {
+        font-size: 1.1em;
+    }
+
+    header {
+        position: unset;
+    }
+
+    .grid-one, .grid-two, .grid-five {
+        display: block;
+    }
+
+    fieldset {
+        width: 60%;
+    }
+
+    label, input, option {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-main a {
+        font-size: 0.9em;
+    }
+
+    fieldset {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav-main, .grid-one, .grid-two, .grid-three, .grid-four, .grid-five{
+        display: block;
+    }
+
+    .nav-main div {
+        font-size: 1em;
+        margin: 3px 0 3px 0;
+        padding: 5px;
+    }
+
+    .nav-main {
+        padding: 0;
+        margin: 5px;
+    }
+
+    .nav-main a {
+        padding: 2px;
+        font-size: 1.6em;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    section p, main p, footer p, .form-footer p, label {
+        font-size: 17px;
+    }
+
+    input, option {
+        font-size: 14px;
+    }
+
+    #full-names, #birth, #email, select {
+        width: 150px;
+    }
+    
+    fieldset {
+        width: 65%;
+    }
+
+    button {
+        margin-right: 35%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .nav-main div {
+        font-size: 1em;
+        margin: 10px 0 10px 0;
+        padding: 10px;
+    }
+
+    .nav-main {
+        padding: 0
+    }
+
+    .nav-main a {
+        padding: 2px;
+      line-height: 20px;
+    }
+
+    section p, main p, footer p, .form-footer p, label {
+        font-size: 15px;
+    }
+
+    fieldset {
+        width: unset;
+        text-align: end;
+    }
+
+    footer {
+        display: block;
+    }
+
+    button {
+        padding: 4px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2, legend {
+        font-size: 2em;
+    }
+
+    label, input, option {
+        font-size: 12px;
+    }
+ 
+}
+
+@media screen and (max-width: 300px) {
+    .nav-main div {
+        font-size: 0.7em;
+        padding: 3px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    section p, main p, footer p, .form-footer p, label {
+        font-size: 12px;
+    }
+
+    .social {
+        justify-items: center;
+    }
+
+    .logo-box img {
+         width: 120px;
+    }
+
+    button {
+        margin-right: 30%;
+    }
+
+}

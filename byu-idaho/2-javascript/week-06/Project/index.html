@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Repeater Split Frequency Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">    <link rel="stylesheet" href="project_style.css">
+    <script src="Project.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Repeater Split Frequency Calculator</h1>
+    </header>
+    <main>
+        <section id="calculator">
+            <article>
+                <p>This calculation tool is used on the radio communications field where we use repeaters. 
+                    A repeater has a transmit frequency and a receive frequency.
+                    A duplexor is a instrument used in the case where you have one antenna and need to use it for your transmitter and receiver.</p>
+                <p>Enter the transmit frequency below to get the receive frequency an duplexor lead lengths.</p>
+                <div>
+                    <label for="transmit-frequency">Transmit Frequency:</label>
+                    <input type="text" id="transmit-frequency" name="txFrequency">
+                </div>
+                <div>
+                    <input type="button" id="calculate" value="Calculate">
+                </div>
+                <div>
+                    <label for="receive-frequency">Receive Frequency:</label>
+                    <input type="text" id="receive-frequency" name="rxFrequency" disabled>
+                </div>
+                <div>
+                    <label for="transmit-duplexor">Transmit Duplexor Lead Length(cm):</label>
+                    <input type="text" id="transmit-duplexor" name="txDuplexor" disabled>
+                </div>
+                <div>
+                    <label for="receive-duplexor">Receive Duplexor Lead Length(cm):</label>
+                    <input type="text" id="receive-duplexor" name="rxDuplexor" disabled>
+                </div>
+            </article>    
+        </section>
+        <hr>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Reace Ian Roeloffze | CSE 121B - Week 06
+    </footer>
+</body>
+
+</html>

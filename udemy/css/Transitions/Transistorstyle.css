@@ -1,0 +1,70 @@
+.circle{
+    height: 400px;
+    width: 400px;
+    background-image: url(https://scontent-jnb1-1.xx.fbcdn.net/v/t39.30808-6/240792525_379139820288834_6612437686059584215_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEZ_ChzLzLhnjhtnCWQsbcCs-QH_JarWvaz5Af8lqta9gr-BK7Q9i9mPT4qpvL_LB6dST250OfTosumFmtuC4at&_nc_ohc=6Ta_qHGuu9UAX_Z7vfx&_nc_ht=scontent-jnb1-1.xx&oh=f4c46dc2a41984d9483675934df32407&oe=61391C92);
+    transition: 1s;
+}
+
+.circle:hover{
+    background-image: url(https://scontent-jnb1-1.xx.fbcdn.net/v/t39.30808-6/214382252_349360449933438_2255137086796285917_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGTz5G2Tr-G6DTaTYiPTFZ7Hmnhp9ky5VQeaeGn2TLlVD-BkmGDxRFYteoJawf_nuT8IwtY860UqBgbAC6JYGBA&_nc_ohc=MuOLMvYATDwAX_RoynD&_nc_ht=scontent-jnb1-1.xx&oh=634e8ae84193c6e0f9331760438de813&oe=61395460);
+    border-radius: 50%;
+}
+.recta{
+    width: 400px;
+    height: 200px;
+    background-color: chartreuse;
+    margin-top: 20px;
+    transition: border-radius 2s 1s, background-color 1s 2s;
+}
+
+.recta:hover{
+    border-radius: 50px;
+    background-color: chocolate;
+}
+
+main div{
+    height: 200px;
+    width: 200px;
+    background-color: #2165ab;
+    margin-top: 20px;
+    transition: margin-left 3s;
+}
+
+main:hover div{
+    /* background-color: #342a8f; */
+    margin-left: 700px;
+}
+
+div:nth-of-type(1){
+    transition-timing-function: ease-out;
+}
+div:nth-of-type(2){
+    transition-timing-function: ease-in-out;
+}
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+}
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
+}
+
+/* Tansition - A property that enable you to define the transition between two states of an element. Best to be specific with what you want to transition rather than being general about it.
+                Is a shorthand property for
+                Transition
+                -property
+                -duration
+                -timing-function
+                -delay */
+
+
+/* section div{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    margin: 20px 0;
+    transition: margin left 3s;
+}
+
+section:hover div{
+    margin-left: 500px; 
+} */

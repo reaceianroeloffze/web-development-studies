@@ -1,0 +1,158 @@
+/* Hannah's Image */
+#hann h1{
+    position: absolute;
+    top: -25px;
+    left: 55px;
+    z-index: 1;
+    font-size: 5rem;
+    width: 60%;
+    color: #007200;
+    text-align: center;
+    font-family: Lobster, cursive;
+    /* Can alternately use "transform: translate(50px, -970px);" to achive same result without setting the positions of the text and image. */
+}
+.hannimg{
+    position: relative;
+    border: 7px ridge #ccff33;
+    width: 65%;
+    z-index: auto;
+}
+
+/* My image */
+.rimg{
+    margin-left: 20px;
+    border: 8px ridge #fff2b2;
+}
+
+#ri, .rimg{
+    width: 53%;
+}
+#ri p{
+    text-align: center ;
+    font-size: 1.21rem;
+    width: 33%;
+    color: #ffe566;
+    transform: translate(128px, -960px);
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Feddy's Image */
+#fed div{
+    background-image: url(IMG-20210821-WA0008.jpg);
+    width: 56%;
+    height: 795px;
+    border:#c7adff ridge 8px;
+    margin: 0 auto;
+    background-size: contain;
+    padding: 0.1em 0 0 0;
+}
+#fed{
+    background-color: #573d7f;
+    padding: 1em 0 1em;
+    background-image: url(garrus-vakarian1.png);
+    background-repeat: repeat;
+    background-size: 200px;  
+}
+h1 {
+    position: absolute;
+    left: 460px;
+    bottom: -1370px;
+    font-size: 4rem;
+    font-family: 'Allison', cursive;
+    color: indigo;
+}
+
+/* Rarity's Image */
+.Jewel{
+    margin-top: 30px;
+    margin: 30px auto 0;
+    border: outset 8px #7151a9;
+    background-image: url(polished-diamond.png);
+    background-size: 115px;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #bbdefb;
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 33%;
+}
+.rr {
+    text-align: center;
+    position: absolute;
+    font-size: 5.3rem;
+    transform: translate(973px, 345px);
+    z-index: 2;
+    font-family: 'Engagement', cursive;
+    color: #3107ff;
+    font-style: oblique;
+}
+.Rarity {
+    text-decoration: underline wavy;
+}
+
+/* Dante's Image */
+.DMC {
+    display: block;
+    margin: 15px auto 0;
+    width: 20%;
+    transform: scale(80%) translateX(0) translateY(8%);
+}
+#devil {
+    border: 8px ridge #ecb81a;
+    margin-top: 20px;
+    background-image: url(Hell.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Ichika's Image */
+.quint {
+    border: 8px ridge #ea9ab2;
+    display: block;
+    margin: 0 auto;
+}
+
+figure{
+    position: relative;
+}
+h3 {
+    position: absolute;
+    bottom: 160px;
+    left: 555px;
+    font-size: 3.7rem;
+    font-family:'Lovers Quarrel', cursive;
+    color: #e27396;
+}
+
+/* Isabella's Image */
+.j {
+    display: flex;
+    justify-content: center;
+    /* background-image: url(Bran-Castle-Transylvania-Romania-known-as-Draculas-Castle.jpg); */
+    background-repeat: 1;
+    background-size: contain;
+}
+
+.Vamp {
+    width: 38%;
+    z-index: auto;
+    position: relative;
+    display: block;
+    z-index: auto;
+    border: blue 10px groove;
+}
+
+.aj {
+    width: 15%;
+
+}
+#jack {
+    position: absolute;
+    font-size: 3rem;
+    left: 700px;
+    z-index: 1;
+    transform: translateY(620px);
+    font-family: 'Homemade Apple', cursive;
+    color: #dd1c1a;
+}
